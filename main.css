@@ -1,0 +1,51 @@
+body{
+    background-color: dimgrey;
+    color:#fff;
+}
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+#clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.clock-container { /*yan yana olması icin*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  .clock-items{
+      width: 40%;
+      background-color: #fff;
+      color:#000;
+      border-radius: 10px;
+      text-align: center;
+      margin-right: 3%; /*aralarında bosluk*/
+      padding-top:30px;
+      padding-bottom: 30px;
+      font-size: 70px;
+      letter-spacing: 5px;
+      font-family: 'Orbitron', sans-serif;
+  }
+  .clock-items p{
+      margin:0;
+      padding:0;
+      border-radius: 5px;;
+  }
+  p{
+      text-align: center;
+  }
+  #date{
+      font-size: 21px;
+      font-family: 'Bebas Neue', cursive;
+      color: #000;
+  }
+  
+  
